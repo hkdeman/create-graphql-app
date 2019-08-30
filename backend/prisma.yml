@@ -1,0 +1,10 @@
+endpoint: http://localhost:4466
+datamodel:
+  - ./src/models/User.graphql
+
+generate:
+  - generator: typescript-client
+    output: ./src/generated/prisma-client/
+
+# hooks:
+#   post-deploy:

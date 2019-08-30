@@ -1,1 +1,1 @@
-# create-graphql-app
+# Create GraphQL Application
